@@ -320,8 +320,8 @@ services:
       # The DSN for Sentry error reporting. If not set, Sentry error reporting will be disabled.
       SENTRY_DSN: ''
     # uncomment to expose dify-web port to host
-    # ports:
-    #   - "3000:3000"
+    ports:
+      - "3001:3000"
 
   # The postgres database.
   db:
